@@ -1,0 +1,63 @@
+.container{
+  padding-top: 50px;
+  background-color: grey;
+  text-decoration: none;
+  width: 200px;
+}
+button{
+  padding: 5x;
+}
+.btn1{
+  width: 50px;
+  font-weight: bold;
+  background-color: #D3D3D3;
+}
+.btn2{
+  width: 100px;
+  font-weight: bold;
+}
+.disp{
+  text-align: right;
+  padding: 5px;
+  border-radius: 15px;
+  border: solid black;
+  margin: 15px;
+  background-color: #2F4F4F;
+  color: white;
+}
+#calc{
+  margin-top:20px;
+  border: solid black;
+  width: 250px;
+  border-radius: 25px;
+  padding: 10px;
+  padding-top: 20px;
+}
+body{
+  background-color: #6A55AC;
+  padding-bottom: 20px;
+}
+#h{
+  font-weight: bold;
+
+}
+.btn{
+  background-color: red;
+}
+
+}
+a, a:hover{
+  color: grey;
+}
+footer{
+  color: 	#191970;
+  text-decoration: none;
+  font-family: 'Joti One';
+}
+.link {
+  color: 	#191970;
+}
+.em{
+  color: #191970;
+  font-size: 18px;
+}

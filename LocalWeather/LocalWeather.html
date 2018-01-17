@@ -1,0 +1,26 @@
+
+<html>
+  <head>
+    <title>Local Weather</title>
+     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Joti+One' rel='stylesheet'>
+    <link rel="stylesheet" href="..\Bootstrap\js\bootstrap.min.js">
+    <link rel="stylesheet" href="..\Bootstrap\css\bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src=".\weather.js"></script>
+    <link rel="stylesheet"  href=".\weather.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="col-md-12 text-center">
+        <h1><b><u>Local Weaher App</u></b><h1>
+          <p><span id="city"></span><span id="country"></span></p>
+          <p><span id="temp"></span><span>,</span><span id="tempunit"> C</span></p>
+          <p><span id="situ"></span></p>
+          <p><img id="img" src="" onerror="standby()" alt="Image is broken :(" style="background-color:grey;"></img></p>
+        </div>
+      </div>
+    </body>
+    <footer><h3 class="text-center"><u>Created by <a class='lnk' href='https://codepen.io/Roy19/' target='_blank'>Roy</a></u><span class='em em-copyright'></span></h3></footer>
+</html>

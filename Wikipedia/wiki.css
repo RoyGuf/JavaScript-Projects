@@ -1,0 +1,47 @@
+body{
+  background-color: #A5B463;
+}
+.random{
+  color: white;
+}
+.box{
+  padding-top: 20px;
+  font-family: cursive;
+}
+.box1{
+  padding-top: 10px;
+  font-family: cursive;
+}
+.but{
+  color: #4DA67;
+  font-family: Lucida;
+}
+.random:hover{
+  color: white;
+}
+.but:hover{
+  color: #FFAA34;
+}
+#re{
+  border-style: solid;
+  padding: 30px;
+  margin: 20px;
+}
+img{
+  border-radius: 50%;
+  max-width: 500px;
+  max-height: 500px;
+}
+.f{
+  color: #191970;
+  text-decoration: none;
+  font-family: 'Joti One';
+}
+a.lnk {
+  text-decoration: none;
+  color: 	#008B8B;
+}
+.em{
+  color: #191970;
+  font-size: 18px;
+}

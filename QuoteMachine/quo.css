@@ -1,0 +1,43 @@
+body{
+  background-color: #557754;
+}
+.btn{
+  color: white;
+  padding: 10px;
+  border: solid white;
+  margin: 50px;
+  background-color: #0075C1;
+  border-radius: 15px;
+}
+.fa-twitter{
+  color: white;
+  padding: 10px;
+  border: solid white;
+  margin: 50px;
+  background-color: #0075C1;
+  border-radius: 15px;
+}
+#title{
+  padding-bottom: 40px;
+  font-family: 'Sedgwick Ave Display';
+  font-size: 60px;
+}
+.q-box{
+  background-color: #6B6B6B;
+  border: solid black;
+  padding: 100px;
+  margin: 70px;
+  font-family: Ariel;
+}
+footer{
+  color: 	#191970;
+  text-decoration: none;
+  font-family: 'Joti One';
+}
+.link {
+  color: 	#191970;
+}
+.em{
+  color: #191970;
+  font-size: 18px;
+}

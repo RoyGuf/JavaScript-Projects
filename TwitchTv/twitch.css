@@ -1,0 +1,55 @@
+body{
+  background-color: #8F3465;
+  font-family: 'Ranga', cursive;
+  font-size: 20px;
+}
+h1{
+  padding: 40px;
+  
+  font-weight: bold;
+  text-decoration: underline;
+}
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.lnk{
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+.container{
+  max-width: 900px;
+}
+li{
+  border: 3px solid black;
+  padding: 5px;
+  margin:20px;
+  background-color: #F55312
+}
+.offline {
+  background-color: #811F85;
+  color: #FFE4C4;
+}
+.offline p{
+  text-decoration: underline;
+}
+.online{
+  background-color: #5C3AFF;
+  color: black;
+  font-weight: bold;
+}
+footer{
+  color: #191970;
+  text-decoration: none;
+  font-family: 'Joti One';
+}
+.link {
+  color: 	#191970;
+}
+.em{
+  color: #191970;
+  font-size: 18px;
+}

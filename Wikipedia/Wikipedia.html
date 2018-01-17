@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Wikipedia</title>
+     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="..\Bootstrap\js\bootstrap.min.js">
+    <link rel="stylesheet" href="C:\Users\Roi\Documents\protfolio\Bootstrap\css\bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src=".\wiki.js"></script>
+    <link rel="stylesheet" type="text/css" href=".\wiki.css">
+  </head>
+  <body>
+    <div class="container text-center">
+        <img src="http://6088-presscdn-0-26.pagely.netdna-cdn.com/wp-content/uploads/2014/04/Wikipedia-1030x579.jpg"</img>
+        <div class="box" id="box">
+          <h1><a href="https://en.wikipedia.org/wiki/Special:Random" class="random" id="ran" target="_blank" style="text-decoration:none">Click to get a random article<a/></h1>
+            <h3><b>Search:</b><form><input onkeydown="if (event.keyCode == 13)
+              {document.getElementById('but').click(); return false;}" class="input" id="input" type="txt" placeholder="Wikipedia"></input></form></h3>
+              <button class="but" id="but">Let's go!</button>
+              <ul id="out" style="list-style: none">
+              </ul>
+            </div>
+          </div>
+        </body>
+        <footer class='f'><h3 class="text-center"><u>Created by <a class='lnk' href='https://codepen.io/Roy19/' target='_blank'>Roy</a></u><span class='em em-copyright'></span></h3></footer>
+    </html>
