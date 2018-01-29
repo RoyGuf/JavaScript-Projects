@@ -1,0 +1,30 @@
+/* Styles go here */
+
+h1{
+  padding:15px;
+  font-size: 70px;
+  color: #D21F2D;
+  font-family: 'Supermercado One';
+}
+#con  {
+    display: inline;
+}
+li {
+    float: left;
+    padding: 15px;
+}
+#list{
+  padding: 10px;
+}
+.bottomright {
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+
+    font-size: 18px;
+}
+body{
+  background-color: #EADFCA;
+  font-family: 'Indie Flower';
+  font-size: 120%;
+}

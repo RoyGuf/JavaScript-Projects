@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="githubViewer">
+<center>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Supermercado+One" rel="stylesheet">
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js'></script>
+    <script data-require="angular-route@*" data-semver="1.2.14" src="https://code.angularjs.org/1.2.14/angular-route.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+    <script src="ctrl/MainController.js"></script>
+    <script src="ctrl/UserController.js"></script>
+    <script src="ctrl/RepoController.js"></script>
+    <script src="github.js"></script>
+  </head>
+
+  <body>
+    <h1><u>Github Viewer</u></h1>
+    <div ng-view></div>
+  </body>
+</center>
+</html>
