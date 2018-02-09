@@ -1,0 +1,43 @@
+.ans{
+  border: solid black;
+  padding: 20px;
+  margin: 10px;
+}
+.ans:hover{
+  background-color: #eee;
+}
+.ans:checked{
+  background-color: #fff;
+}
+img{
+  width: 300px;
+  height: 300px;
+  padding-bottom: 20px;
+}
+.footer{
+  padding-top: 30px;
+  text-align: center;
+}
+.pass{
+  width: 50px;
+  height: 300px;
+  color: green;
+  background-color: green;
+}
+.fail{
+  width: 50px;
+  height: 300px;
+  background-color: red;
+
+}
+#addGameBtn{
+  position: absolute; right: 0;
+}
+.btn-success{
+  position: absolute; left: 0;
+  border: solid #eee;
+}
+.jumbotron{
+  padding-top: 1px;
+  padding-bottom: 5px;
+}

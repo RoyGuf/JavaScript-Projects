@@ -1,0 +1,52 @@
+
+body {
+  color: #833;
+  background-color: #DCDCDC;
+}
+.fa-star{
+	margin: 0.5em;
+  font-size: 50px;
+}
+span{
+	display: inline-block;
+  margin: 0.5em;
+  text-align: center;
+  background-color: #ccc;
+  width: 34px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.selected{
+	background-color: #eee;
+  color: #ddd;
+  cursor: not-allowed;
+}
+.used{
+	background-color: #aaddaa;
+  color: #99bb99;
+  cursor: not-allowed;
+}
+.card{
+	display: inline-block;
+}
+#clk{
+	width: 110px;
+  border-style: solid;
+  border-color: white;
+}
+h3{
+	padding-bottom: 30px;
+  font-size: 40px;
+}
+.b{
+	background-color: #ccc;
+  border-color: black;
+}
+.card-block{
+  border-style: solid;
+  border-color: white;
+}
+#n{
+  border-style: solid;
+  border-color: white;
+}
