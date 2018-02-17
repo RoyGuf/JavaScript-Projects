@@ -1,0 +1,51 @@
+
+.navi{
+  font-size: 30px;
+  padding-bottom: 60px;
+  width: 735px;
+  height: 20px;
+  display: table;
+  text-decoration: none;
+  background-color: lightgrey;
+}
+.s{
+  display: table-cell;
+  text-align: center;
+  margin: 1px;
+  font-family: cursive;
+}
+.nav-link{
+  color: grey !important;
+  border: solid grey;
+}
+.nav-link:focus{
+  color: black !important;
+  border: solid black;
+  background-color: 	#2F4F4F;
+}
+.nav-link:focus:hover{
+  color: black !important;
+  border: solid black;
+  background-color: 	#2F4F4F;
+}
+.nav-link:hover{
+  color: black !important;
+  background-color: 	#708090;
+}
+.navbar{
+  text-decoration: none;
+  background-color: lightgrey;
+}
+.bg-blend {
+  width: 400px;
+  height: 100px;
+  background-repeat: no-repeat, repeat;
+  background-image: url("../images/Pluralsight-logo.png");
+  background-blend-mode: lighten;
+  background-color: lightgrey;
+  background-blend-mode: multiply;
+
+}
+.jumbotron{
+  margin: 20px 0px 0px ;
+}
