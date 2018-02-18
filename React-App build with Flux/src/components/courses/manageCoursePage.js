@@ -66,9 +66,15 @@ var ManageCoursePage = React.createClass({
       this.state.errors.category = 'Category must be at least 3 characters.'
       formIsValid = false;
     }
-    if(this.state.course.length < 3){
+    if(this.state.course.length.indexOf(':') < 0){
       this.state.errors.length = 'Length must be according to the format.'
       formIsValid = false;
+    }else{
+      var len = this.state.course.length.split(':');
+      if(len[0]%1 !== 0 || len[1]%1 !== 0){
+        this.state.errors.length = 'Length must be according to the format.'
+        formIsValid = false;
+      }
     }
 
     this.setState({
